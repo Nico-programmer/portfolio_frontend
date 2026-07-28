@@ -11,9 +11,6 @@ const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
 const TechnologyCard = ({ technology }: TechnologyCardProps) => {
   const iconUrl = technology.icon ? `${BACKEND_URL}${technology.icon}`: null;
 
-  console.log(technology.icon);
-  console.log(iconUrl);
-
   return (
     <article className="group rounded-2xl border border-slate-800 bg-slate-900/60 p-6 transition-all duration-300 hover:-translate-y-2 hover:border-indigo-500/40 hover:shadow-xl hover:shadow-indigo-500/10">
       <div className="flex flex-col items-center text-center">
