@@ -13,7 +13,7 @@ const NavbarButton = () => {
         scale:.97
       }}
       
-      href="/cv.pdf"
+      href="https://htztohnrbfhvotpyvcpr.supabase.co/storage/v1/object/public/media/cv/837434a299f6454db58513e1ee002b58.pdf"
       download
       className="
         hidden
