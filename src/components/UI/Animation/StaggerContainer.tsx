@@ -3,13 +3,16 @@ import type { ReactNode } from "react";
 
 interface StaggerContainerProps {
   children: ReactNode;
+  className?: string;
 }
 
 const StaggerContainer = ({
   children,
+  className = "",
 }: StaggerContainerProps) => {
   return (
     <motion.div
+      className={className}
       variants={{
         hidden: {},
         visible: {
