@@ -4,6 +4,7 @@ import type { Project } from "../../../types/portfolio"
 
 import Section from "../../UI/Section/Section"
 import Container from "../../UI/Container/Container"
+import SectionTitle from "../../UI/SectionTitle/SectionTitle"
 
 import ProjectGrid from "./ProjectGrid"
 import ProjectModal from "./ProjectModal"
@@ -26,6 +27,11 @@ const Projects = ({ projects }: ProjectsProps) => {
   return (
     <Section id="projects">
       <Container>
+        <SectionTitle
+          title="Proyectos"
+          subtitle="Estos son todos los proyectos que realice durante mi recorrido como desarrollador."
+        />
+
         <ProjectGrid
           projects={projects}
           onProjectClick={handleOpenProject}
