@@ -29,7 +29,7 @@ const Projects = ({ projects }: ProjectsProps) => {
       <Container>
         <SectionTitle
           title="Proyectos"
-          subtitle="Estos son todos los proyectos que realice durante mi recorrido como desarrollador."
+          subtitle="Una muestra de los proyectos desarrollados a lo largo de mi trayectoria profesional."
         />
 
         <ProjectGrid
