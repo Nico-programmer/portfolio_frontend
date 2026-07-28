@@ -14,6 +14,7 @@ const NavbarButton = () => {
       }}
       
       href="https://htztohnrbfhvotpyvcpr.supabase.co/storage/v1/object/public/media/cv/837434a299f6454db58513e1ee002b58.pdf"
+      target="_blank"
       download
       className="
         hidden
